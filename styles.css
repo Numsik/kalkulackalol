@@ -10,3 +10,15 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+button{
+    padding: 20px;
+    background-color: rgb(230, 114, 114);
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:rgb(145, 74, 74);;
+}
