@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Calculator</h1>
+
     <div class="kalkulacka">
-        <div class="vysledek"></div>
+        <input readonly id="vysledek">
         <div class="cisla">
-            <button onclick="handleNumber(1)">1</button>
-            <button onclick="handleNumber(2)">2</button>
-            <button onclick="handleNumber(3)">3</button>
-            <button onclick="handleNumber(4)">4</button>
-            <button onclick="handleNumber(5)">5</button>
-            <button onclick="handleNumber(6)">6</button>
-            <button onclick="handleNumber(7)">7</button>
-            <button onclick="handleNumber(8)">8</button>
-            <button onclick="handleNumber(9)">9</button>
-            <button onclick="handleNumber(0)">0</button>
-            <button onclick="handleOperator('+')">+</button>
-            <button onclick="handleOperator('-')">-</button>
-            <button onclick="handleEqual()">=</button>
-            <button onclick="handleOperator('/')">/</button>
-            <button onclick="handleOperator('*')">*</button>
-            <button onclick="handleOperator('.')">.</button>
-            <button onclick="handleClear()">C</button>
+            <button class="operator" onclick="append('+')">+</button>
+            <button class="number" onclick="append('7')">7</button>
+            <button class="number" onclick="append('8')">8</button>
+            <button class="number" onclick="append('9')">9</button>
+            <button class="operator" onclick="append('-')">-</button>
+            <button class="number" onclick="append('4')">4</button>
+            <button class="number" onclick="append('5')">5</button>
+            <button class="number" onclick="append('6')">6</button>
+            <button class="operator" onclick="append('*')">*</button>
+            <button class="number" onclick="append('1')">1</button>
+            <button class="number" onclick="append('2')">2</button>
+            <button class="number" onclick="append('3')">3</button> 
+            <button class="operator" onclick="append('/')">/</button>  
+            <button class="number" onclick="append('.')">.</button>
+            <button class="number" onclick="append('0')">0</button>
+            <button class="operator" onclick="handleOperator()">=</button>
+            <button class="operator" onclick="Clear()">C</button>
 
         </div>
     </div>
